@@ -1,0 +1,1036 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".PeriodicTable" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="60dp"
+        android:background="#ADD8E6"
+        android:onClick="Hydrogen"
+        android:text="H"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="2dp"
+        android:background="#ffa500"
+        android:onClick="Lithium"
+        android:text="Li"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignRight="@+id/button2"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="2dp"
+        android:background="#ffa500"
+        android:onClick="Sodium"
+        android:text="Na"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_below="@+id/button3"
+        android:layout_marginTop="2dp"
+        android:background="#ffa500"
+        android:onClick="Potassium"
+        android:text="K"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignRight="@+id/button4"
+        android:layout_below="@+id/button4"
+        android:layout_marginTop="2dp"
+        android:background="#ffa500"
+        android:onClick="Rubidium"
+        android:text="Rb"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignRight="@+id/button5"
+        android:layout_below="@+id/button5"
+        android:layout_marginTop="2dp"
+        android:background="#ffa500"
+        android:onClick="Caesium"
+        android:text="Cs"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignLeft="@+id/button6"
+        android:layout_below="@+id/button6"
+        android:layout_marginTop="2dp"
+        android:background="#ffa500"
+        android:onClick="Francium"
+        android:text="Fr"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button3"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/button2"
+        android:background="#ffff00"
+        android:onClick="Beryllium"
+        android:text="Be"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button02"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button4"
+        android:layout_alignLeft="@+id/Button01"
+        android:background="#ffff00"
+        android:onClick="Magnesium"
+        android:text="Mg"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button03"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button5"
+        android:layout_alignLeft="@+id/Button02"
+        android:background="#ffff00"
+        android:onClick="Calcium"
+        android:text="Ca"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button04"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button6"
+        android:layout_alignLeft="@+id/Button03"
+        android:background="#ffff00"
+        android:onClick="Strontium"
+        android:text="Sr"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button05"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button7"
+        android:layout_alignLeft="@+id/Button04"
+        android:background="#ffff00"
+        android:onClick="Barium"
+        android:text="Ba"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button06"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignBaseline="@+id/button7"
+        android:layout_alignBottom="@+id/button7"
+        android:layout_alignLeft="@+id/Button05"
+        android:background="#ffff00"
+        android:onClick="Radium"
+        android:text="Ra"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button07"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button5"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/Button03"
+        android:background="#f778A1"
+        android:onClick="Scandium"
+        android:text="Sc"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button08"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button5"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/Button07"
+        android:background="#f778A1"
+        android:onClick="Titanium"
+        android:text="Ti"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button09"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button5"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/Button08"
+        android:background="#f778A1"
+        android:onClick="Vanadium"
+        android:text="V"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button10"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button5"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/Button09"
+        android:background="#f778A1"
+        android:onClick="Chromium"
+        android:text="Cr"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button11"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignBaseline="@+id/Button10"
+        android:layout_alignBottom="@+id/Button10"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/Button10"
+        android:background="#f778A1"
+        android:onClick="Manganese"
+        android:text="Mn"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button12"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button5"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/Button11"
+        android:background="#f778A1"
+        android:onClick="Iron"
+        android:text="Fe"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button13"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button5"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/Button12"
+        android:background="#f778A1"
+        android:onClick="Cobalt"
+        android:text="Co"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button14"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button5"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/Button13"
+        android:background="#f778A1"
+        android:onClick="Nickel"
+        android:text="Ni"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button15"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button5"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/Button14"
+        android:background="#f778A1"
+        android:onClick="Copper"
+        android:text="Cu"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button16"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button5"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/Button15"
+        android:background="#f778A1"
+        android:onClick="Zinc"
+        android:text="Zn"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button17"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button5"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/Button16"
+        android:background="#99c68e"
+        android:onClick="Gallium"
+        android:text="Ga"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button18"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignBaseline="@+id/Button17"
+        android:layout_alignBottom="@+id/Button17"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/Button17"
+        android:background="#4AA02C"
+        android:onClick="Germanium"
+        android:text="Ge"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button19"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button5"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/Button18"
+        android:background="#4AA02C"
+        android:onClick="Arsenic"
+        android:text="As"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button20"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button5"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/Button19"
+        android:background="#ADD8E6"
+        android:onClick="Selenium"
+        android:text="Se"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button21"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button5"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/Button20"
+        android:background="#306eff"
+        android:onClick="Bromine"
+        android:text="Br"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button22"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button5"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/Button21"
+        android:background="#736f6e"
+        android:onClick="Krypton"
+        android:text="Kr"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button23"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button6"
+        android:layout_toLeftOf="@+id/Button08"
+        android:background="#f778A1"
+        android:onClick="Yttrium"
+        android:text="Y"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button24"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button6"
+        android:layout_toLeftOf="@+id/Button09"
+        android:background="#f778A1"
+        android:onClick="Zirconium"
+        android:text="Zr"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button25"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button6"
+        android:layout_toLeftOf="@+id/Button10"
+        android:background="#f778A1"
+        android:onClick="Niobium"
+        android:text="Nb"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button26"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button6"
+        android:layout_toLeftOf="@+id/Button11"
+        android:background="#f778A1"
+        android:onClick="Molybdenum"
+        android:text="Mo"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button27"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button6"
+        android:layout_toLeftOf="@+id/Button12"
+        android:background="#f778A1"
+        android:onClick="Technetium"
+        android:text="Tc"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button28"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button6"
+        android:layout_toLeftOf="@+id/Button13"
+        android:background="#f778A1"
+        android:onClick="Ruthenium"
+        android:text="Ru"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button29"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button6"
+        android:layout_toLeftOf="@+id/Button14"
+        android:background="#f778A1"
+        android:onClick="Rhodium"
+        android:text="Rh"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button30"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button6"
+        android:layout_toLeftOf="@+id/Button15"
+        android:background="#f778A1"
+        android:onClick="Palladium"
+        android:text="Pd"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button31"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button6"
+        android:layout_toLeftOf="@+id/Button16"
+        android:background="#f778A1"
+        android:onClick="Silver"
+        android:text="Ag"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button32"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button6"
+        android:layout_toLeftOf="@+id/Button17"
+        android:background="#f778A1"
+        android:onClick="Cadmium"
+        android:text="Cd"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button33"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button6"
+        android:layout_toLeftOf="@+id/Button18"
+        android:background="#99c68e"
+        android:onClick="Indium"
+        android:text="In"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button34"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button6"
+        android:layout_toLeftOf="@+id/Button19"
+        android:background="#99c68e"
+        android:onClick="Tin"
+        android:text="Sn"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button35"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button6"
+        android:layout_toLeftOf="@+id/Button20"
+        android:background="#4AA02C"
+        android:onClick="Antimony"
+        android:text="Sb"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button36"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button6"
+        android:layout_toLeftOf="@+id/Button21"
+        android:background="#4AA02C"
+        android:onClick="Tellurium"
+        android:text="Te"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button37"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button6"
+        android:layout_toLeftOf="@+id/Button22"
+        android:background="#306eff"
+        android:onClick="Iodine"
+        android:text="I"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button38"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button6"
+        android:layout_alignLeft="@+id/Button22"
+        android:background="#736f6e"
+        android:onClick="Xenon"
+        android:text="Xe"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button39"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button7"
+        android:layout_alignLeft="@+id/Button23"
+        android:background="#ecd672"
+        android:onClick="Lanthanides"
+        android:text=""
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button40"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button7"
+        android:layout_toLeftOf="@+id/Button09"
+        android:background="#f778A1"
+        android:onClick="Hafnium"
+        android:text="Hf"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button41"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button7"
+        android:layout_toLeftOf="@+id/Button10"
+        android:background="#f778A1"
+        android:onClick="Tantalum"
+        android:text="Ta"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button42"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button7"
+        android:layout_toLeftOf="@+id/Button11"
+        android:background="#f778A1"
+        android:onClick="Tungsten"
+        android:text="W"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button43"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button7"
+        android:layout_toLeftOf="@+id/Button12"
+        android:background="#f778A1"
+        android:onClick="Rhenium"
+        android:text="Re"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button44"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button7"
+        android:layout_alignLeft="@+id/Button28"
+        android:background="#f778A1"
+        android:onClick="Osmium"
+        android:text="Os"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button45"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button7"
+        android:layout_toLeftOf="@+id/Button14"
+        android:background="#f778A1"
+        android:onClick="Iridium"
+        android:text="Ir"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button46"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button7"
+        android:layout_alignLeft="@+id/Button30"
+        android:background="#f778A1"
+        android:onClick="Platinum"
+        android:text="Pt"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button47"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button7"
+        android:layout_toLeftOf="@+id/Button16"
+        android:background="#f778A1"
+        android:onClick="Gold"
+        android:text="Au"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button48"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button7"
+        android:layout_toLeftOf="@+id/Button17"
+        android:background="#f778A1"
+        android:onClick="Mercury"
+        android:text="Hg"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button49"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignBaseline="@+id/Button06"
+        android:layout_alignBottom="@+id/Button06"
+        android:layout_toLeftOf="@+id/Button08"
+        android:background="#95b9c7"
+        android:onClick="Actinides"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button50"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignBaseline="@+id/Button49"
+        android:layout_alignBottom="@+id/Button49"
+        android:layout_alignLeft="@+id/Button40"
+        android:background="#f778A1"
+        android:text="Rf"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button51"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignBaseline="@+id/Button50"
+        android:layout_alignBottom="@+id/Button50"
+        android:layout_toLeftOf="@+id/Button10"
+        android:background="#f778A1"
+        android:text="Db"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button52"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignBaseline="@+id/Button51"
+        android:layout_alignBottom="@+id/Button51"
+        android:layout_toLeftOf="@+id/Button11"
+        android:background="#f778A1"
+        android:text="Sg"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button53"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignBaseline="@+id/Button52"
+        android:layout_alignBottom="@+id/Button52"
+        android:layout_toLeftOf="@+id/Button12"
+        android:background="#f778A1"
+        android:text="Bh"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button54"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignBaseline="@+id/Button53"
+        android:layout_alignBottom="@+id/Button53"
+        android:layout_toLeftOf="@+id/Button13"
+        android:background="#f778A1"
+        android:text="Hs"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button55"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignBaseline="@+id/Button54"
+        android:layout_alignBottom="@+id/Button54"
+        android:layout_toLeftOf="@+id/Button14"
+        android:background="#f778A1"
+        android:text="Mt"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button56"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignBaseline="@+id/Button55"
+        android:layout_alignBottom="@+id/Button55"
+        android:layout_toLeftOf="@+id/Button15"
+        android:background="#f778A1"
+        android:text="Ds"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button57"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignBaseline="@+id/Button56"
+        android:layout_alignBottom="@+id/Button56"
+        android:layout_toLeftOf="@+id/Button16"
+        android:background="#f778A1"
+        android:text="Rg"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button58"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignBaseline="@+id/Button57"
+        android:layout_alignBottom="@+id/Button57"
+        android:layout_toLeftOf="@+id/Button17"
+        android:background="#f778A1"
+        android:text="Cn"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button59"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button7"
+        android:layout_alignLeft="@+id/Button33"
+        android:background="#99c68e"
+        android:onClick="Thallium"
+        android:text="Tl"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button60"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignBaseline="@+id/Button58"
+        android:layout_alignBottom="@+id/Button58"
+        android:layout_toLeftOf="@+id/Button18"
+        android:background="#99c68e"
+        android:text="Uut"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button61"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button7"
+        android:layout_alignLeft="@+id/Button34"
+        android:background="#99c68e"
+        android:onClick="Lead"
+        android:text="Pb"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button62"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignBaseline="@+id/Button60"
+        android:layout_alignBottom="@+id/Button60"
+        android:layout_alignLeft="@+id/Button61"
+        android:background="#99c68e"
+        android:text="Fl"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button63"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignBaseline="@+id/Button61"
+        android:layout_alignBottom="@+id/Button61"
+        android:layout_toLeftOf="@+id/Button20"
+        android:background="#99c68e"
+        android:onClick="Bismuth"
+        android:text="Bi"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button64"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignBaseline="@+id/Button62"
+        android:layout_alignBottom="@+id/Button62"
+        android:layout_toLeftOf="@+id/Button20"
+        android:background="#99c68e"
+        android:text="Uup"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button65"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignBaseline="@+id/Button64"
+        android:layout_alignBottom="@+id/Button64"
+        android:layout_toLeftOf="@+id/Button21"
+        android:background="#99c68e"
+        android:text="Lv"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button66"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignBaseline="@+id/Button63"
+        android:layout_alignBottom="@+id/Button63"
+        android:layout_alignLeft="@+id/Button36"
+        android:background="#4AA02C"
+        android:onClick="Polonium"
+        android:text="Po"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button67"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignBaseline="@+id/Button66"
+        android:layout_alignBottom="@+id/Button66"
+        android:layout_toLeftOf="@+id/Button22"
+        android:background="#306eff"
+        android:onClick="Astatine"
+        android:text="At"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button68"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignBaseline="@+id/Button65"
+        android:layout_alignBottom="@+id/Button65"
+        android:layout_alignLeft="@+id/Button67"
+        android:background="#306eff"
+        android:text="Uus"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button70"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignBaseline="@+id/Button67"
+        android:layout_alignBottom="@+id/Button67"
+        android:layout_alignLeft="@+id/Button38"
+        android:background="#736f6e"
+        android:onClick="Radon"
+        android:text="Rn"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button69"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignBaseline="@+id/Button68"
+        android:layout_alignBottom="@+id/Button68"
+        android:layout_alignLeft="@+id/Button70"
+        android:background="#736f6e"
+        android:text="Uuo"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button71"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button4"
+        android:layout_alignLeft="@+id/Button22"
+        android:background="#736f6e"
+        android:onClick="Argon"
+        android:text="Ar"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button72"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button3"
+        android:layout_alignLeft="@+id/Button71"
+        android:background="#736f6e"
+        android:onClick="Neon"
+        android:text="Ne"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button73"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button2"
+        android:layout_alignLeft="@+id/Button72"
+        android:background="#736f6e"
+        android:onClick="Helium"
+        android:text="He"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button74"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignBaseline="@+id/Button71"
+        android:layout_alignBottom="@+id/Button71"
+        android:layout_alignLeft="@+id/Button21"
+        android:background="#306eff"
+        android:onClick="Chlor"
+        android:text="Cl"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button75"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignBaseline="@+id/Button72"
+        android:layout_alignBottom="@+id/Button72"
+        android:layout_alignLeft="@+id/Button74"
+        android:background="#306eff"
+        android:onClick="Fluorine"
+        android:text="F"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button76"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button4"
+        android:layout_alignLeft="@+id/Button20"
+        android:background="#ADD8E6"
+        android:onClick="Sulphur"
+        android:text="S"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button77"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button3"
+        android:layout_toLeftOf="@+id/Button21"
+        android:background="#ADD8E6"
+        android:onClick="Oxygen"
+        android:text="O"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button78"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignBaseline="@+id/Button76"
+        android:layout_alignBottom="@+id/Button76"
+        android:layout_alignLeft="@+id/Button19"
+        android:background="#ADD8E6"
+        android:onClick="Phos"
+        android:text="P"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button79"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button3"
+        android:layout_alignLeft="@+id/Button78"
+        android:background="#ADD8E6"
+        android:onClick="Nitrogen"
+        android:text="N"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button80"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button3"
+        android:layout_toLeftOf="@+id/Button19"
+        android:background="#ADD8E6"
+        android:onClick="Carbon"
+        android:text="C"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button81"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button4"
+        android:layout_alignLeft="@+id/Button17"
+        android:background="#99c68e"
+        android:onClick="Aluminium"
+        android:text="Al"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button82"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button4"
+        android:layout_toLeftOf="@+id/Button19"
+        android:background="#4AA02C"
+        android:onClick="Silicon"
+        android:text="Si"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button83"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_above="@+id/button3"
+        android:layout_toLeftOf="@+id/Button18"
+        android:background="#4AA02C"
+        android:onClick="Boron"
+        android:text="B"
+        android:textSize="15dp" />
+
+</RelativeLayout>

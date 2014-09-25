@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/Metals"
+        android:title="Metals">
+        <menu>
+            <item
+                android:id="@+id/Alkali_Metals"
+                android:title="Alkali Metals"/>
+            <item
+                android:id="@+id/Alkaline_Metals"
+                android:title="Alkaline Metals"/>
+            <item
+                android:id="@+id/Transition_Metals"
+                android:title="Transition Metals"/>
+            <item
+                android:id="@+id/Post_Transition_Metals"
+                android:title="PostTransition Metals"/>
+            <item
+                android:id="@+id/Lanthanides_Metals"
+                android:title="Lanthanides"/>
+            <item
+                android:id="@+id/Actinides_Metals"
+                android:title="Actinides"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/Nonmetals"
+        android:title="Nonmetals">
+        <menu>
+            <item
+                android:id="@+id/other_nonmetals"
+                android:title="other nonmetals"/>
+            <item
+                android:id="@+id/halogens"
+                android:title="halogens"/>
+            <item
+                android:id="@+id/Noble_gases"
+                android:title="Noble gases"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/Metalloids"
+        android:title="Metalloids"/>
+    <item
+        android:id="@+id/Reset"
+        android:title="Reset"/>
+
+</menu>

@@ -1,0 +1,267 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Lanthanides" >
+
+    <Button
+        android:id="@+id/Button02"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignBaseline="@+id/Button01"
+        android:layout_alignBottom="@+id/Button01"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/Button01"
+        android:background="#ecd672"
+        android:onClick="Cerium"
+        android:text="Ce"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button03"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignBaseline="@+id/Button02"
+        android:layout_alignBottom="@+id/Button02"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/Button02"
+        android:background="#ecd672"
+        android:onClick="Praseodymium"
+        android:text="Pr"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button04"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignBaseline="@+id/Button03"
+        android:layout_alignBottom="@+id/Button03"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/Button03"
+        android:background="#ecd672"
+        android:onClick="Neodymium"
+        android:text="Nd"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button05"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignBaseline="@+id/Button04"
+        android:layout_alignBottom="@+id/Button04"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/Button04"
+        android:background="#ecd672"
+        android:onClick="Promethium"
+        android:text="Pm"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button06"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignBaseline="@+id/Button05"
+        android:layout_alignBottom="@+id/Button05"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/Button05"
+        android:background="#ecd672"
+        android:onClick="Samarium"
+        android:text="Sm"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button07"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignBaseline="@+id/Button06"
+        android:layout_alignBottom="@+id/Button06"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/Button06"
+        android:background="#ecd672"
+        android:onClick="Europium"
+        android:text="Eu"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button08"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignBaseline="@+id/Button07"
+        android:layout_alignBottom="@+id/Button07"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/Button07"
+        android:background="#ecd672"
+        android:onClick="Gadolinium"
+        android:text="Gd"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button09"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignBaseline="@+id/Button08"
+        android:layout_alignBottom="@+id/Button08"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/Button08"
+        android:background="#ecd672"
+        android:onClick="Terbium"
+        android:text="Tb"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button10"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignBaseline="@+id/Button09"
+        android:layout_alignBottom="@+id/Button09"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/Button09"
+        android:background="#ecd672"
+        android:onClick="Dysprosium"
+        android:text="Dy"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button11"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignBaseline="@+id/Button10"
+        android:layout_alignBottom="@+id/Button10"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/Button10"
+        android:background="#ecd672"
+        android:onClick="Holmium"
+        android:text="Ho"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button12"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignBaseline="@+id/Button11"
+        android:layout_alignBottom="@+id/Button11"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/Button11"
+        android:background="#ecd672"
+        android:onClick="Erbium"
+        android:text="Er"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button13"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignBaseline="@+id/Button12"
+        android:layout_alignBottom="@+id/Button12"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/Button12"
+        android:background="#ecd672"
+        android:onClick="Thulium"
+        android:text="Tm"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button14"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignBaseline="@+id/Button13"
+        android:layout_alignBottom="@+id/Button13"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/Button13"
+        android:background="#ecd672"
+        android:onClick="Ytterbium"
+        android:text="Yb"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button15"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignBaseline="@+id/Button14"
+        android:layout_alignBottom="@+id/Button14"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/Button14"
+        android:background="#ecd672"
+        android:onClick="Lutetium"
+        android:text="Lu"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="49dp"
+        android:layout_marginTop="300dp"
+        android:background="#ecd672"
+        android:onClick="Lanthanum"
+        android:text="La"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Button01"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="21dp"
+        android:text="LANTHANIDES"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="30dp"
+        android:layout_toLeftOf="@+id/Button12"
+        android:text=" * The lanthanide or lanthanoid chemical elements  comprises the fifteen metallic chemical elements with atomic numbers 57 through 71, from lanthanum through lutetium.\n * These fifteen lanthanide elements, along with the chemically similar elements scandium and yttrium, are often collectively known as the rare earth elements.\n*  Both lanthanum and lutetium have been labeled as group 3 elements, because they both have a single valence electron in the &apos;d&apos; shell"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_marginLeft="54dp"
+        android:layout_toRightOf="@+id/textView2"
+        android:src="@drawable/lanthanoids" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Button01"
+        android:layout_below="@+id/Button02"
+        android:layout_marginTop="5dp"
+        android:text="For more details : "
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignLeft="@+id/Button04"
+        android:text="https://en.wikipedia.org/wiki/Lanthanide"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_alignRight="@+id/imageView1"
+        android:layout_marginBottom="35dp"
+        android:text="Lanthanide oxides" />
+
+</RelativeLayout>

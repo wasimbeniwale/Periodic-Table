@@ -1,0 +1,898 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.periodictable"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.periodictable.PeriodicTable"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.periodictable.AlkaliMetals"
+            android:label="@string/title_activity_alkali_metals"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Lanthanides"
+            android:label="@string/title_activity_lanthanides"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Actinides"
+            android:label="@string/title_activity_actinides"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Hydrogen"
+            android:label="@string/title_activity_hydrogen"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Helium"
+            android:label="@string/title_activity_helium"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Lithium"
+            android:label="@string/title_activity_lithium"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Beryllium"
+            android:label="@string/title_activity_beryllium"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Boron"
+            android:label="@string/title_activity_boron"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Carbon"
+            android:label="@string/title_activity_carbon"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Nitrogen"
+            android:label="@string/title_activity_nitrogen"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Oxygen"
+            android:label="@string/title_activity_oxygen"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Fluorine"
+            android:label="@string/title_activity_fluorine"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Neon"
+            android:label="@string/title_activity_neon"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Potassium"
+            android:label="@string/title_activity_potassium"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Calcium"
+            android:label="@string/title_activity_calcium"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Scandium"
+            android:label="@string/title_activity_scandium"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Vanadium"
+            android:label="@string/title_activity_vanadium"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Chromium"
+            android:label="@string/title_activity_chromium"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Manganese"
+            android:label="@string/title_activity_manganese"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Iron"
+            android:label="@string/title_activity_iron"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Cobalt"
+            android:label="@string/title_activity_cobalt"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Nickel"
+            android:label="@string/title_activity_nickel"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Zinc"
+            android:label="@string/title_activity_zinc"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Titanium"
+            android:label="@string/title_activity_titanium"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Copper"
+            android:label="@string/title_activity_copper"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Sodium"
+            android:label="@string/title_activity_sodium"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Magnesium"
+            android:label="@string/title_activity_magnesium"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Aluminium"
+            android:label="@string/title_activity_aluminium"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Silicon"
+            android:label="@string/title_activity_silicon"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Phosphorus"
+            android:label="@string/title_activity_phosphorus"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Sulphur"
+            android:label="@string/title_activity_sulphur"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Chlorine"
+            android:label="@string/title_activity_chlorine"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Argon"
+            android:label="@string/title_activity_argon"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Phos"
+            android:label="@string/title_activity_phos"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Chlor"
+            android:label="@string/title_activity_chlor"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Gallium"
+            android:label="@string/title_activity_gallium"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Germanium"
+            android:label="@string/title_activity_germanium"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Arsenic"
+            android:label="@string/title_activity_arsenic"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Selenium"
+            android:label="@string/title_activity_selenium"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Bromine"
+            android:label="@string/title_activity_bromine"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Krypton"
+            android:label="@string/title_activity_krypton"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Rubidium"
+            android:label="@string/title_activity_rubidium"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Strontium"
+            android:label="@string/title_activity_strontium"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Yttrium"
+            android:label="@string/title_activity_yttrium"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Zirconium"
+            android:label="@string/title_activity_zirconium"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Niobium"
+            android:label="@string/title_activity_niobium"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Molybdenum"
+            android:label="@string/title_activity_molybdenum"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Technetium"
+            android:label="@string/title_activity_technetium"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Ruthenium"
+            android:label="@string/title_activity_ruthenium"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Rhodium"
+            android:label="@string/title_activity_rhodium"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Palladium"
+            android:label="@string/title_activity_palladium"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Silver"
+            android:label="@string/title_activity_silver"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Cadmium"
+            android:label="@string/title_activity_cadmium"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Indium"
+            android:label="@string/title_activity_indium"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Tin"
+            android:label="@string/title_activity_tin"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Antimony"
+            android:label="@string/title_activity_antimony"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Tellurium"
+            android:label="@string/title_activity_tellurium"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Iodine"
+            android:label="@string/title_activity_iodine"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Xenon"
+            android:label="@string/title_activity_xenon"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Caesium"
+            android:label="@string/title_activity_caesium"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Barium"
+            android:label="@string/title_activity_barium"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Hafnium"
+            android:label="@string/title_activity_hafnium"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Tantalum"
+            android:label="@string/title_activity_tantalum"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Tungsten"
+            android:label="@string/title_activity_tungsten"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Rhenium"
+            android:label="@string/title_activity_rhenium"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Osmium"
+            android:label="@string/title_activity_osmium"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Iridium"
+            android:label="@string/title_activity_iridium"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Platinum"
+            android:label="@string/title_activity_platinum"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Gold"
+            android:label="@string/title_activity_gold"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Mercury"
+            android:label="@string/title_activity_mercury"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Thallium"
+            android:label="@string/title_activity_thallium"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Lead"
+            android:label="@string/title_activity_lead"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Bismuth"
+            android:label="@string/title_activity_bismuth"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Polonium"
+            android:label="@string/title_activity_polonium"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Astatine"
+            android:label="@string/title_activity_astatine"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Radon"
+            android:label="@string/title_activity_radon"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Lanthanum"
+            android:label="@string/title_activity_lanthanum"
+            android:parentActivityName="com.example.periodictable.Lanthanides"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.Lanthanides" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Cerium"
+            android:label="@string/title_activity_cerium"
+            android:parentActivityName="com.example.periodictable.Lanthanides"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.Lanthanides" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Praseodymium"
+            android:label="@string/title_activity_praseodymium"
+            android:parentActivityName="com.example.periodictable.Lanthanides"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.Lanthanides" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Neodymium"
+            android:label="@string/title_activity_neodymium"
+            android:parentActivityName="com.example.periodictable.Lanthanides"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.Lanthanides" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Promethium"
+            android:label="@string/title_activity_promethium"
+            android:parentActivityName="com.example.periodictable.Lanthanides"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.Lanthanides" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Samarium"
+            android:label="@string/title_activity_samarium"
+            android:parentActivityName="com.example.periodictable.Lanthanides"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.Lanthanides" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Europium"
+            android:label="@string/title_activity_europium"
+            android:parentActivityName="com.example.periodictable.Lanthanides"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.Lanthanides" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Gadolinium"
+            android:label="@string/title_activity_gadolinium"
+            android:parentActivityName="com.example.periodictable.Lanthanides"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.Lanthanides" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Terbium"
+            android:label="@string/title_activity_terbium"
+            android:parentActivityName="com.example.periodictable.Lanthanides"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.Lanthanides" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Dysprosium"
+            android:label="@string/title_activity_dysprosium"
+            android:parentActivityName="com.example.periodictable.Lanthanides"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.Lanthanides" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Holmium"
+            android:label="@string/title_activity_holmium"
+            android:parentActivityName="com.example.periodictable.Lanthanides"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.Lanthanides" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Erbium"
+            android:label="@string/title_activity_erbium"
+            android:parentActivityName="com.example.periodictable.Lanthanides"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.Lanthanides" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Thulium"
+            android:label="@string/title_activity_thulium"
+            android:parentActivityName="com.example.periodictable.Lanthanides"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.Lanthanides" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Ytterbium"
+            android:label="@string/title_activity_ytterbium"
+            android:parentActivityName="com.example.periodictable.Lanthanides"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.Lanthanides" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Lutetium"
+            android:label="@string/title_activity_lutetium"
+            android:parentActivityName="com.example.periodictable.Lanthanides"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.Lanthanides" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Francium"
+            android:label="@string/title_activity_francium"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Radium"
+            android:label="@string/title_activity_radium"
+            android:parentActivityName="com.example.periodictable.PeriodicTable"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.PeriodicTable" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Actinium"
+            android:label="@string/title_activity_actinium"
+            android:parentActivityName="com.example.periodictable.Actinides"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.Actinides" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Thorium"
+            android:label="@string/title_activity_thorium"
+            android:parentActivityName="com.example.periodictable.Actinides"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.Actinides" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Protactinium"
+            android:label="@string/title_activity_protactinium"
+            android:parentActivityName="com.example.periodictable.Actinides"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.Actinides" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Uranium"
+            android:label="@string/title_activity_uranium"
+            android:parentActivityName="com.example.periodictable.Actinides"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.Actinides" />
+        </activity>
+        <activity
+            android:name="com.example.periodictable.Neptunium"
+            android:label="@string/title_activity_neptunium"
+            android:parentActivityName="com.example.periodictable.Actinides"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.periodictable.Actinides" />
+        </activity>
+    </application>
+
+</manifest>
